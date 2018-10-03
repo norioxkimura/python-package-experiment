@@ -1,7 +1,9 @@
 
+from six import print_
+
 def hello():
-    print "I am acme.core.hello()."
+    print_("I am acme.core.hello().")
 
 def goodbye():
-    print "I am acme.core.goodbye()."
+    print_("I am acme.core.goodbye().")
 
